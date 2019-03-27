@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	font-family: 'Open Sans', sans-serif;
+  padding-top: 3.5rem;
+}
+
+.jumbotron{
+	background:
+	linear-gradient(to bottom,rgba(255,200,200, 0.5) 0%,rgba(255, 200, 200, 1)100%),url("https://www.gratistodo.com/wp-content/uploads/2016/10/Bob-Esponja-9-800x659.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center-center;
+}
+
+
